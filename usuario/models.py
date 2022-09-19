@@ -6,4 +6,3 @@ class Usuario(models.Model):
     numero_documento = models.CharField(max_length=15)
     correo_electronico = models.CharField(max_length=50)
     clave = models.CharField(max_length=30)
- 
